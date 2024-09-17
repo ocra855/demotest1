@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+.main-bicycle {
+    background-size: cover;
+    width: 100%;
+}
+
+.section-about ,.section-bicycle{
+    line-height: 40px;
+    font-size: 30px;
+    text-align: center;
+    border-bottom: solid 1.5px;
+    width: 120px;
+    margin: 30px auto 10px;
+}
+
+.about-name{
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.section-about-image{
+    width: 150px;
+    border-radius: 50%;
+    margin: 30px; 
+}
+.section-about-image:hover{
+    width: 180px;
+    margin: 15px; 
+}
+
+.about-text{
+    margin: auto 30px;
+    line-height: 30px;
+}
+
+.bicycle-images{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0 60px;
+}
+
+.bicycle-image{
+    margin: 10px;
+}
+
+.bicycle-image img{
+    width: 100%;
+    border-radius: 22px;
+    box-shadow: 2px 2px 4px #777777;
+}
+
+.bicycle-image h3{
+    line-height: 30px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.bicycle-image p{
+    line-height: 25px;
+    text-align: center;
+    font-size: 14px;
+}
